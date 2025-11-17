@@ -8,7 +8,7 @@ $data = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM alumni WHERE id=$i
 
 <head>
     <title>Edit Alumni</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -37,5 +37,6 @@ $data = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM alumni WHERE id=$i
     }
     ?>
 </body>
+
 
 </html>
